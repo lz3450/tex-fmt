@@ -18,12 +18,14 @@ pub const ENV_END: &str = "\\end{";
 pub const EXTENSIONS: [&str; 4] = [".tex", ".bib", ".sty", ".cls"];
 
 /// Names of LaTeX list environments
-const LISTS: [&str; 5] = [
+const LISTS: [&str; 7] = [
     "itemize",
-    "enumerate",
-    "description",
-    "inlineroman",
     "inventory",
+    "inlineroman",
+    "enumerate",
+    "enumerate*",
+    "squishlist",
+    "description",
 ];
 
 /// Names of LaTeX verbatim environments
